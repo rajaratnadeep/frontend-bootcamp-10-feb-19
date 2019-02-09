@@ -6,20 +6,24 @@
   </head>
 
   <body>
-    <div class="main-head">
+    <div class="navigation">
+      <div class="nav-content"><a href="#home">Home</a></div>
+      <div class="nav-content"><a href="#contact">Contact</a></div>
+    </div>
+    <div class="main-head" id="home">
       <h1>THE DARK KNIGHT COMPUTERS</h1>
     </div>
-    
+
     <div class="company-profile">
       <div class="company-info">
         <h2>Batman Computer Enterprises</h2>
         <p>
-          &nbsp;&nbsp;&nbsp;&nbsp; Batman Enterprises was established in the
+          &nbsp;&nbsp;&nbsp;&nbsp; Batman
+          <span style="color:brown">Enterprises</span> was established in the
           year 1970 when joker tried to attack the CIA headquarters. It has been
           manufacturing top class computer equipments since that time. The
           enterprise specialises in personal computers and military grade
-          hardware solutions.
-          <br /><br />
+          hardware solutions. <br /><br />
           &nbsp;&nbsp;&nbsp;&nbsp;If you wish to be a private detective or want
           to start your own secret agency, you are in need of top class hardware
           components for your computer. It will give you unmatched performance
@@ -59,7 +63,9 @@
         <tbody>
           <tr>
             <td rowspan="3">1</td>
-            <td rowspan="3"><img src="" alt="img of computer goes here" /></td>
+            <td rowspan="3">
+              <img src="./img/comp.jpg" alt="img of computer goes here" />
+            </td>
             <td>Basic Computer</td>
             <td class="price">20000</td>
           </tr>
@@ -74,7 +80,9 @@
 
           <tr>
             <td rowspan="3">2</td>
-            <td rowspan="3"><img src="" alt="img of computer goes here" /></td>
+            <td rowspan="3">
+              <img src="./img/printer.jpg" alt="img of computer goes here" />
+            </td>
             <td>Printer</td>
             <td class="price">5000</td>
           </tr>
@@ -89,7 +97,13 @@
 
           <tr>
             <td>3</td>
-            <td><img src="" alt="img of computer goes here" /></td>
+            <td>
+              <img
+                src="./img/webcam.png"
+                alt="img of webcam goes here"
+                width="100px"
+              />
+            </td>
             <td>Webcam</td>
             <td class="price">2000</td>
           </tr>
@@ -104,7 +118,7 @@
       </table>
     </div>
 
-    <div class="contact-details">
+    <div class="contact-details" id="contact">
       <h3>
         Find us on maps
         <a
